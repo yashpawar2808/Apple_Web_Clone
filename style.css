@@ -474,7 +474,7 @@ body {
   font-size: 13px;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 200px) {
   .footpara{
       margin-left: 10px;
   }
