@@ -474,15 +474,6 @@ body {
   font-size: 13px;
 }
 
-@media (max-width: 768px) {
-  .footerpara {
-    max-width: 800px;
-    margin: 15px auto;
-    font-size: 13px;
-    margin-left: 10px;
-  }
-}
-
 .footer {
   padding: 40px 20px 20px;
   border-top: 1px solid #d2d2d7;
@@ -544,5 +535,9 @@ body {
   .footer-bottom {
     flex-direction: column;
     align-items: flex-start;
+  }
+  .footpara {
+    margin: 0 10px;
+    text-align: center;
   }
 }
