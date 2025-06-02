@@ -474,9 +474,12 @@ body {
   font-size: 13px;
 }
 
-@media (min-width: 200px) {
-  .footpara{
-      margin-left: 10px;
+@media (max-width: 768px) {
+  .footerpara {
+    max-width: 800px;
+    margin: 15px auto;
+    font-size: 13px;
+    margin-left: 10px;
   }
 }
 
